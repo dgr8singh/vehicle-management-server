@@ -7,7 +7,7 @@ private static Connection con;
 public static Connection getCon(){
 	try{
 		Class.forName("com.mysql.jdbc.Driver"); 
-		con=DriverManager.getConnection("jdbc:mysql://localhost:3306/track","root","Ankitsingh@95");
+		con=DriverManager.getConnection("jdbc:mysql://localhost:3306/track","user name here","password here");
 	}catch (Exception e) { 
 		System.out.println(e+" IN Dao");
 	}
